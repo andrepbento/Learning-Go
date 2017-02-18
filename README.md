@@ -1,2 +1,7 @@
-# Go
-Learning Go Programming Language
+# Go - Learning Go Programming Language 👨‍💻 📚
+
+This repository consists on some code examples in Go
+
+For more information, please visit: <br/>
+  https://golang.org/ <br/>
+  https://www.tutorialspoint.com/go/index.htm
