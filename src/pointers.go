@@ -68,4 +68,23 @@ func main() {
     fmt.Printf("Value of d = %d\n", d)
     fmt.Printf("Value avaiable at *ptr_d = %d\n", *ptr_d)
     fmt.Printf("Value avaiable at **pptr_d = %d\n", **pptr_d)
+
+    //      Pointers to functions
+    var e int = 100
+    var f int = 200
+
+    fmt.Printf("Before swap, value of e : %d\n", e)
+    fmt.Printf("Before swap, value of f : %d\n", f)
+
+    swap(&e, &f)
+
+    fmt.Printf("After swap, value of e : %d\n", e)
+    fmt.Printf("After swap, value of f : %d\n", f)
+}
+
+func swap(x *int, y *int) {
+    var temp int
+    temp = *x
+    *x = *y
+    *y = temp
 }
